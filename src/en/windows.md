@@ -9,6 +9,16 @@ Minimise, maximise and close are shown for GTK 3, GTK 4 and libadwaita apps. Qt 
 title bars with `qadwaitadecorations-qt6` (AUR). Change the buttons in *Settings → Personalization →
 Windows*. If an app still shows only a close button, see [Troubleshooting](troubleshooting.html).
 
+## Window layout menu
+
+Hold the pointer on a window's maximise button for two seconds — just hover, or press and hold — and a
+menu opens under it, like in Chrome OS. Click a part of a screen scheme to put the window there:
+halves, two thirds and a third, three columns, a half and two quarters, or quarters. *Full screen*
+maximises the window, *Float* makes it small and keeps it above the others.
+
+Turn the menu off in *Settings → Personalization → Windows → Window layout menu*. The delay is the
+`snap-menu-delay` key in milliseconds (`dev.hypede.shell`).
+
 ## Effects
 
 | Effect | What it does | Switch |
